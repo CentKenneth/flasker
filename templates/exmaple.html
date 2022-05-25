@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h1>Hello</h1>
+        <p>My name is {{first_name}}</p>
+        <p>{{stuff|safe}}</p>
+
+        <h1>Employes</h1>
+        <h1>Employes</h1>
+        {% for names in employees_name %}
+        {{ names }} <br>
+        {% endfor %}
+
+        <br>
+        <div>
+            <h1>Employes</h1>
+            <input type="text" placeholder="Name" >Name</input>
+        </div>
+    </body>
+</html>
